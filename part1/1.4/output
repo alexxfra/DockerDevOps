@@ -1,0 +1,7 @@
+Secret message is:
+"Docker is easy"
+
+Commands:
+    docker run -d -it --name clock devopsdockeruh/exec_bash_exercise
+    docker exec -it clock bash
+    root@d5421b788075:/usr/app# tail -f ./logs.txt

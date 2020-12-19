@@ -1,0 +1,12 @@
+I opened two console windows.
+In one I ran:
+docker run -it --name webcont ubuntu:16.04 sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+
+The prompt waits for input on Input website: prompt.
+
+In the second window I ran: 
+    docker exec webcont apt-get update
+    docker exec webcont apt-get install curl -y
+
+This way we can install curl.
+Then we enter helsinki.fi in the first prompt. Afterward we recieve the html doc.

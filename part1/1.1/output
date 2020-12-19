@@ -1,0 +1,7 @@
+Script started on 2020-12-19 15:29:17+01:00 [TERM="xterm-kitty" TTY="/dev/pts/3" COLUMNS="75" LINES="43"]
+CONTAINER ID   IMAGE     COMMAND                  CREATED              STATUS                      PORTS     NAMES                SIZE
+985c834e6f86   nginx     "/docker-entrypoint.…"   58 seconds ago       Up 58 seconds               80/tcp    admiring_blackburn   1.12kB (virtual 133MB)
+768820f7ee28   nginx     "/docker-entrypoint.…"   59 seconds ago       Exited (0) 40 seconds ago             vibrant_ganguly      1.11kB (virtual 133MB)
+f62bb05aa818   nginx     "/docker-entrypoint.…"   About a minute ago   Exited (0) 40 seconds ago             quirky_jennings      1.11kB (virtual 133MB)
+
+Script done on 2020-12-19 15:29:17+01:00 [COMMAND_EXIT_CODE="0"]
